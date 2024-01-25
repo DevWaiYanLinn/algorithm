@@ -2,29 +2,29 @@
 
 ## Overview
 
-The **Spiral Matrix Generator** algorithm creates a square matrix with a spiral pattern of numbers. It starts from the top-left corner and moves in a spiral direction (right, down, left, top), filling in the matrix with consecutive numbers.
+The **Spiral Matrix Generator** algorithm creates a square matrix with a spiral pattern of numbers. It starts from the top left corner and spirals actions (right, down, left, up) filling in consecutive numbers inside the matrix.
 
 ## Usage
 
-To use the algorithm, follow these steps:
+To apply a rule set, do the following:
 
-1. Set the desired value of `n` (the size of the square matrix). The algorithm requires `n` to be 3 or greater.
+1. Set the desired value of `n` (the dimensions of the rectangular matrix). The rule set requires `n` to be three or greater.
 
-2. Execute the algorithm, and it will generate a square matrix with a spiral pattern of numbers.
+2. Execute the algorithm and it will generate a square matrix with a spiral pattern of numbers.
 
-## Algorithm Details
+## Algorithm details
 
-The algorithm uses a 2D list (`frames`) to represent the square matrix. It initializes a counter (`current_number`) starting from -1 and iterates through the matrix, updating elements based on the current direction (right, down, left, top).
+The ruleset uses a 2D listing ("frames") to symbolize a rectangular matrix. Initializes a counter (`current_number`) starting at -1 and iterates through the matrix, updating the factors based on the current direction (right, down, left, up).
 
-The algorithm rotates the direction after completing a full cycle in one direction (right, down, left, top), and it reduces the size of the matrix (`n`) after completing either right or left traversal.
+The rule set reverses the course after completing a complete cycle in one course (right, down, left, up) and descales the matrix (`n`) after completing a right or left pass.
 
-## Error Handling
+## Error handling
 
-The algorithm includes error handling to ensure that `n` must be 2 or greater. If `n` is less than 2, it prints an error message and does not proceed with matrix generation.
+The ruleset contains errors that ensure that "n" should be 2 or more. If `n` is much less than 2, it prints an error message and now does not continue generating the matrix.
 
 ## Example
 
-For `n = 5`, the algorithm generates the following matrix:
+For `n = five` the ruleset generates the following matrix:
 
 ```py
     [
@@ -38,6 +38,5 @@ For `n = 5`, the algorithm generates the following matrix:
 
 ## Notes
 
-- The algorithm assumes a square matrix as output.
-- Adjust the value of `n` to generate different-sized matrices.
-
+- The rule set assumes a square matrix as output.
+- Adjust the value of `n` to generate matrices of extraordinary size.
