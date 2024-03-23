@@ -34,7 +34,8 @@ The code works by first validating the input to ensure that N and M meet the req
 
 ```python
 python welcome_pattern.py
+```
 
 ## Author
 
-This code was written by [Thu Ta].
+This code was written by Thu Ta.
