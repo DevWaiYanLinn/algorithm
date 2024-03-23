@@ -11,7 +11,7 @@ This Python program prints a "welcome" pattern based on user input.
 ## Example
 
 Try giving an input of "7 21", it would give an output like this below.
-
+``` python
 ---------.|.---------        
 ------.|..|..|.------        
 ---.|..|..|..|..|.---        
@@ -19,6 +19,7 @@ Try giving an input of "7 21", it would give an output like this below.
 ---.|..|..|..|..|.---        
 ------.|..|..|.------        
 ---------.|.---------   
+```
 
 ## Code Explanation
 
