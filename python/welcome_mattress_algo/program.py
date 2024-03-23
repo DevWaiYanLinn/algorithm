@@ -28,5 +28,6 @@ def vinc():
           c -= 2
       break
     else:
+       print("\033[91m"+"Invalid input value error! Please try again."+"\033[0m")
        continue
 vinc()
